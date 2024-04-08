@@ -1,0 +1,98 @@
+:root {
+--violet: hsl(263, 55%, 52%);
+--blue: hsl(217, 19%, 35%);
+--Very-dark-blue: hsl(219, 29%, 14%);
+--White: hsl(0, 0%, 100%);
+
+--Light-gray: hsl(0, 0%, 81%);
+--Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: var(--Light-grayish-blue);
+    font-family: 'Barlow Semi Condensed';
+    margin: 1rem;
+}
+
+main {
+    max-width: 1200px;
+}
+
+main > :not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.stack-1 >* {
+    margin-bottom: 1rem;
+}
+
+.stack-2 > :not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.profile1 {
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1.5rem) 0rem; 
+    background-color: var(--violet);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.profile2 {
+    background-color: var(--blue);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.profile3 {
+    background-color: var(--White);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.profile4 {
+    background-color: var(--Very-dark-blue);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.profile5 {
+    background-color: var(--White);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.container-profile {
+    display: flex;
+}
+
+.container-profile img {
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgba(215, 209, 209, 0.389);
+}
+
+.container-profile .profile-name {
+    margin-left: 1rem;
+    display: grid;
+}
+
+.profile-text-1 {
+    margin-top: 1rem;
+    padding-right: 39.9px;
+}
+
+.profile-text-2 {
+    margin-top: 1rem;
+}

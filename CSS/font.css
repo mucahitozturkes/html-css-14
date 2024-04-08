@@ -1,0 +1,97 @@
+:root {
+    --violet: hsl(263, 55%, 52%);
+    --blue: hsl(217, 19%, 35%);
+    --Very-dark-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+.container-profile .profile-name .PN-1 {
+    color: var(--Light-grayish-blue);
+    font-size: 0.8rem;
+}
+
+.profile3 .container-profile .profile-name .PN-1 {
+    color: var(--Very-dark-blue);
+}
+
+.profile5 .container-profile .profile-name .PN-1 {
+    color: var(--Very-dark-blue);
+}
+
+.container-profile .profile-name .PN-2 {
+    color: rgba(255, 255, 255, 0.645);
+    font-size: 0.7rem;
+}
+
+.profile3 .container-profile .profile-name .PN-2 {
+    color: rgba(128, 128, 128, 0.787);
+    font-size: 0.7rem;
+}
+
+.profile5 .container-profile .profile-name .PN-2 {
+    color: rgba(128, 128, 128, 0.787);
+    font-size: 0.7rem;
+}
+
+.profile1 .profile-text-1 {
+    color: var(--White);
+    font-size: 1.23rem;
+    font-weight: 500;
+}
+
+.profile2 .profile-text-1 {
+    color: var(--White);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.profile3 .profile-text-1 {
+    color: var(--Very-dark-blue);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.profile4 .profile-text-1 {
+    color: var(--White);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.profile5 .profile-text-1 {
+    color: var(--Very-dark-blue);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.profile-text-2 {
+    color: rgba(255, 255, 255, 0.58);
+    font-size: .8rem;
+    line-height: 1.5;
+}
+
+.profile2 .profile-text-2 {
+    color: rgba(255, 255, 255, 0.58);
+    font-size: .9rem;
+    line-height: 1.5;
+}
+
+.profile3 .profile-text-2 {
+    color: gray;
+    font-size: 0.933rem;
+    line-height: 1.5;
+}
+
+.profile4 .profile-text-2 {
+    color: rgba(255, 255, 255, 0.618);
+    font-size: 0.933rem;
+    line-height: 1.5;
+}
+
+.profile5 .profile-text-2 {
+    color: gray;
+    font-size: 0.933rem;
+    line-height: 1.5;
+}

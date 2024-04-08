@@ -1,0 +1,51 @@
+@media (min-width: 1024px) {
+    body {
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+    }
+
+    main {
+        display: flex;
+    }
+    
+    .stack {
+        width: 90%;
+    }
+
+    .profile1 {
+        margin-right: 2rem;
+    }
+
+    .profile3 {
+        margin-right: 2rem;
+    }
+
+    .profile5 {
+    width: 30%;
+    margin-left: 2rem;
+    }
+
+    .stack-1 {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    .stack-2 {
+        display: flex;
+
+    }
+    
+    main > :not(:last-child) {
+        margin-bottom: 0rem;
+    }
+    
+    .stack-1 >* {
+        margin-bottom: 0rem;
+    }
+    
+    .stack-2 > :not(:last-child) {
+        margin-bottom: 0rem;
+    }
+
+}
